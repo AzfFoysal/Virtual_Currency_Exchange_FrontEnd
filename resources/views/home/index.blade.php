@@ -70,7 +70,7 @@
 
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">Register/Logout</a>
+                        <a class="nav-link" href="#">Register/Login</a>
                     </li>
                 </ul>
 
@@ -87,10 +87,11 @@
     {{-- cards --}}
 
     <div class="text-center mt-5">
-        <h1>Welcome TO VCES</h1>
+        <h1>Welcome To VCES</h1>
         
 ​   <picture>
-        <source srcset="https://media3.giphy.com/media/c5wbvuaVVLWzC/giphy.gif" type="image/svg+xml">
+        <!-- <source srcset="https://media3.giphy.com/media/c5wbvuaVVLWzC/giphy.gif" type="image/svg+xml"> -->
+        <source srcset="https://www.fintechcompliance.co.uk/wp-content/uploads/2016/09/Fintech-infographic-cover.png" type="image/svg+xml">
         <img src="..." class="img-fluid img-thumbnail" alt="...">
     </picture>
 
@@ -122,7 +123,7 @@
                 </ul>
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Go to post</a>
-                    <a href="#" class="btn btn-info">go to shop</a>
+                    <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
             </div>
@@ -144,7 +145,7 @@
                 </ul>
                 <div class="card-body">
                         <a href="#" class="btn btn-primary">Go to post</a>
-                        <a href="#" class="btn btn-info">go to shop</a>
+                        <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
             </div>
@@ -167,7 +168,7 @@
                 </ul>
                 <div class="card-body">
                         <a href="#" class="btn btn-primary">Go to post</a>
-                        <a href="#" class="btn btn-info">go to shop</a>
+                        <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
 
@@ -194,7 +195,7 @@
                 </ul>
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Go to post</a>
-                    <a href="#" class="btn btn-info">go to shop</a>
+                    <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
             </div>
@@ -216,7 +217,7 @@
                 </ul>
                 <div class="card-body">
                         <a href="#" class="btn btn-primary">Go to post</a>
-                        <a href="#" class="btn btn-info">go to shop</a>
+                        <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
             </div>
@@ -239,7 +240,7 @@
                 </ul>
                 <div class="card-body">
                         <a href="#" class="btn btn-primary">Go to post</a>
-                        <a href="#" class="btn btn-info">go to shop</a>
+                        <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                 </div>
             </div>
 
@@ -262,12 +263,12 @@
     <section class="mb-4">
     <footer class="bg-light text-center text-white">
   <!-- Grid container -->
-  <div class="container p-8 pb-0">
+  <div class="container p-4 pb-0">
 
 
   
     <!-- Section: Social media -->
-    <section class="mb-8">
+    <section class="mb-4">
      <!-- Facebook -->
 <a style="color: #3b5998;" href="#!" role="button"
   ><i class="fab fa-facebook-f fa-lg"></i

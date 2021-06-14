@@ -15,7 +15,7 @@
 
 <body>
     <div class="text-center mt-5">
-        <h1>Please Sign in as Seller  </h1>
+        <h1>Welcome to Login </h1>
     </div>
     <div class="container">
         <form style="max-width:600px;margin:auto;">
@@ -28,10 +28,25 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
+
+            <div class="col-12">
+            <label for="exampleInputEmail1" class="form-label">Login As</label>
+            <select class="form-select" aria-label="...">
+                <option selected>none</option>
+                <option value="1">Admin</option>
+                <option value="2">Seller</option>
+                <option value="3">Buyer</option>
+              </select>
+        </div>
+        <br>
+
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Remember me</label>
             </div>
+
+        
+
             <button type="submit" class="btn btn-primary">Signin</button>
             <button type="submit" class="btn btn-primary">Signup</button>
         </form>
