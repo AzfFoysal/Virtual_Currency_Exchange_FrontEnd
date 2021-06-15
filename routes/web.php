@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
 Route::get('admin/login', function () {
     return view('admin/login');
 });
@@ -82,3 +85,10 @@ Route::get('/user/register', function () {
 Route::get('/home/index', function () {
     return view('home/index');
 });
+
+Route::get('/home/login', function () {
+    return view('home/login');
+});
+
+Route::get('/home/login','HomeController@login')->name('home.login');
+Route::get('/home/index','HomeController@index')->name('home.index');

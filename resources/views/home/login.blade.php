@@ -49,8 +49,17 @@
 
             <button type="submit" class="btn btn-primary">Signin</button>
             <button type="submit" class="btn btn-primary">Signup</button>
+            <a class="btn btn-primary" href="{{ route('home.index') }}">Back</a>
+            
         </form>
     </div>
+
+    
+    
+
+
+
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
