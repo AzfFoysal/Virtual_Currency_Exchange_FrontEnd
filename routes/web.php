@@ -90,5 +90,15 @@ Route::get('/home/login', function () {
     return view('home/login');
 });
 
+Route::get('/home/chatbox', function () {
+    return view('home/chatbox');
+});
+
 Route::get('/home/login','HomeController@login')->name('home.login');
 Route::get('/home/index','HomeController@index')->name('home.index');
+Route::get('/home/contact','HomeController@contact')->name('home.contact');
+Route::get('/home/help','HomeController@help')->name('home.help');
+Route::get('/home/index','HomeController@home')->name('home.index');
+Route::get('/home/announcement','HomeController@announcement')->name('home.announcement');
+Route::get('/home/postCard','HomeController@postCard')->name('home.postCard');
+Route::get('/home/chatbox','HomeController@chatbox')->name('home.chatbox');

@@ -30,18 +30,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link"  href="{{ route('home.index') }}">Home</a>
                     </li>
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact support</a>
+                    <a class="nav-link" href="{{ route('home.announcement') }}">Announcement</a>
+                        
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home.contact') }}">Contact support</a>
+                        
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Help</a>
+                        <a class="nav-link" href="{{ route('home.help') }}">Help</a>
                     </li>
 
-
+                
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -85,7 +91,7 @@
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="{{ route('home.login') }}">Register/Login</a>
 
-                     <!--   <a class="text-light" href="https://vcesbd.com/">Register/Login</a>  -->
+                
 
                     </li>
                 </ul>
@@ -115,6 +121,8 @@
 
     </div>
 
+    <br>
+    
     <div class="container ">
 
         {{-- row 1 --}}
@@ -142,7 +150,8 @@
                     </ul>
                     <div class="card-body">
                     <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                        <!-- <a class="nav-link" href="{{ route('home.help') }}">Help</a> -->
+                        <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -166,8 +175,8 @@
                         <li class="list-group-item">Ratting : 4.6/5</li>
                     </ul>
                     <div class="card-body">
-                        <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                    <center>
+                        <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -192,8 +201,8 @@
                         <li class="list-group-item">Ratting : 3.3/5</li>
                     </ul>
                     <div class="card-body">
-                        <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                    <center>
+                        <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -201,6 +210,8 @@
 
             </div>
         </div>
+
+    <br>
 
         {{-- row 2 --}}
         <div class="row ">
@@ -222,8 +233,8 @@
                         <li class="list-group-item">Ratting : 4.3/5</li>
                     </ul>
                     <div class="card-body">
-                        <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                    <center>
+                    <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -247,8 +258,8 @@
                         <li class="list-group-item">Ratting : 4.6/5</li>
                     </ul>
                     <div class="card-body">
-                        <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                    <center>
+                        <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -273,8 +284,8 @@
                         <li class="list-group-item">Ratting : 3.3/5</li>
                     </ul>
                     <div class="card-body">
-                       <center>
-                        <a href="#" class="btn btn-primary">Go to post</a>
+                    <center>
+                       <a href="{{ route('home.postCard') }}" class="btn btn-primary">Go to post</a>
                     </center>
                         <!-- <a href="#" class="btn btn-info">go to shop</a> -->
                     </div>
@@ -285,6 +296,8 @@
 
 
 </div>
+
+<br>
 
         <footer class="bg-dark text-center text-white container-fluid">
         <!-- Grid container -->
