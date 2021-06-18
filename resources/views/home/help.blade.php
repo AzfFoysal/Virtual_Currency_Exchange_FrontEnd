@@ -62,7 +62,6 @@
     
 
         <center>
-
         
             <a class="btn btn-primary" href="{{ route('home.help') }}">Back</a>
             

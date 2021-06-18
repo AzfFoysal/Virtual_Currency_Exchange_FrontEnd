@@ -93,10 +93,10 @@
     <center>
           <button type="submit" class="btn btn-primary btn-lg">Buy</button>    
           <!-- <button type="submit" class="btn btn-primary btn-lg" href="{{ route('home.chatbox') }}">Chat</button> -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" >Write A Message</button>
+          <a class="btn btn-primary" href="{{ route('home.chatbox') }}">Write A Message</a>
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -119,7 +119,7 @@
       </div>
       <div class="modal-footer">
         <a class="btn btn-primary" href="{{ route('home.postCard') }}">Back</a>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" >Send message</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" >Send message</button> -->
 
 <!-- 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

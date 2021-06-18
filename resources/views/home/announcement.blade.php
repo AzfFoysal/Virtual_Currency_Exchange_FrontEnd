@@ -61,7 +61,9 @@
      <img src="https://image.freepik.com/free-vector/megaphone-with-important-announcement-flat_149152-517.jpg" class="rounded mx-auto d-block" alt="...">
         <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
-             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. <br> This content is a little bit longer.</p>
+             
+             <br><br><br><br><br><br><br><br>
             <p class="card-text">Last updated 3 mins ago</p>
         </div>
     </div>
@@ -72,7 +74,9 @@
      <img src="https://image.freepik.com/free-vector/megaphone-with-important-announcement-flat_149152-517.jpg" class="rounded mx-auto d-block" alt="...">
         <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
-             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. <br> This content is a little bit longer.</p>
+             
+             <br><br><br><br><br><br><br><br>
             <p class="card-text">Last updated 3 mins ago</p>
         </div>
     </div>
@@ -83,7 +87,9 @@
      <img src="https://image.freepik.com/free-vector/megaphone-with-important-announcement-flat_149152-517.jpg" class="rounded mx-auto d-block" alt="...">
         <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
-             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. <br> This content is a little bit longer.</p>
+             
+             <br><br><br><br><br><br><br><br>
             <p class="card-text">Last updated 3 mins ago</p>
         </div>
     </div>
@@ -94,7 +100,9 @@
      <img src="https://image.freepik.com/free-vector/megaphone-with-important-announcement-flat_149152-517.jpg" class="rounded mx-auto d-block" alt="...">
         <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
-             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. <br> This content is a little bit longer.</p>
+             
+             <br><br><br><br><br><br><br><br>
             <p class="card-text">Last updated 3 mins ago</p>
         </div>
     </div>

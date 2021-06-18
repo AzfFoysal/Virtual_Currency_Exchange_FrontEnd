@@ -76,6 +76,12 @@
                             
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home.chatbox') }}">Chat</a>
+                    </li>
+
+
                 </ul>
 
                 <!--Navbar-->
